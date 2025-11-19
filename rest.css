@@ -437,7 +437,7 @@
 .mob{
    display: none;
 } 
-  @media screen and (max-width:426px) {
+  @media screen and (max-width:440px) {
    .desktop{
       display: none;
    }
@@ -644,7 +644,7 @@
    /* margin-top: 540px; */
 }
   }
-  @media screen and (min-width:427px) and (max-width:800px) {
+  @media screen and (min-width:426px) and (max-width:800px) {
    .container{
       /* border: 2px solid red; */
       width: 100%;
