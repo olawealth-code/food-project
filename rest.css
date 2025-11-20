@@ -4,28 +4,16 @@
    box-sizing: border-box;
  }
  
- 
- .container{
-    /* margin: 60px auto; */
-    /* background-color: palegoldenrod; */
- }
- 
- 
+
  .desktop{
     display: flex;
-    /* position: relative; */
-    /* border-bottom: 1px solid white; */
     position: fixed;
-    width: 85%;
-    /* top: 0; */
-    /* border: 1px solid red; */
-    /* left: 50px; */
+    width: 100%;
     align-items: center;
-    background-color: rgba(165, 42, 42, 0.315);
+    background-color: red;
     padding: 5px 90px;
-    /* justify-content: center; */
     justify-content: space-between;
-    /* gap: 370px; */
+
  }
  a:hover{
    color: yellow; 
@@ -34,33 +22,26 @@
  .ulone{
     display: flex;
     list-style-type: none;
-    /* position: absolute; */
-    /* left: 350px; */
-    /* border: 1px solid green; */
-    padding: 0px 140px;
-    /* width: 90%; */
-    /* display: flex; */
-    /* text-align: center; */
-    /* justify-content: center; */
+    padding: 0px 60px;
     align-items: center;
-    /* justify-content: space-evenly; */
     
  }
  .super{
-    font-size: 60px;
+    font-size: 70px;
  }
  .hero1{
-    margin:140px;
-    /* border: 1px solid red; */
+    margin:250px 100px;
     width: 60%;
-    padding: 40px 10px;
+    padding: 0px 0px;
     color: white;
     
  }
  .pstyle{
-   /* border: 1px solid red; */
-   padding: 10px 50px;
+   padding: 40px 50px;
    font-style: italic;
+ }
+ .pfood{
+   margin: 20px 10px;
  }
  .imghero{
     width: 90%;
@@ -128,23 +109,38 @@
     margin: 150px auto;
     background-color: white;
     text-align: center;
-    padding: 40px;
-    /* height: 450px; */
+    padding: 70px 10px;
     width: 19%;
+ }
+ .foods{
+   margin: 15px 0 ;
+ }
+ .cali{
+   
+   margin: 30px;
+   width: 50%;
+   font-size: 35px;
+ }
+ .pcali{
+   margin: 30px;
+   line-height: 25px;
+   
+   width: 89%;
+ }
+ .markicon{
+   padding: 25px;
+   line-height: 30px;
+   
  }
 
 
  .div2:hover{
-   background-color:yellow;
+   background-color:hsl(38.82 100 50);
    transform: translateY(0);
-   /* transition:ease-in-out 1.5s; */
  }
  .divfour{
-   /* position: relative; */
     width: 30%;
     margin:15px auto;
-    /* margin: 20px; */
-    /* border: 1px solid red; */
  }
  .show{
    display: none;
@@ -152,10 +148,9 @@
    position: absolute;
    background-color: yellow;
    width: 10%;
-   /* height: 15px;   */
    text-align: center;
    padding: 10px 0px;
-   margin: 160px 140px;
+   margin: 120px 90px;
  }
  .divfour:hover .show{
    display: block;
@@ -173,7 +168,6 @@
     width: 70%;
  }
  .section4{
-   /* border: 1px solid red; */
    padding: 60px;
  }
  .section3{
@@ -183,7 +177,11 @@
  }
   .fa-star{
     color: yellow;
-    /* height: 30px; */
+   
+ }
+ .img4{
+   width: 60%;
+   margin: 30px;
  }
  .dish{
     color: red;
@@ -192,48 +190,28 @@
     color: yellow;
  }
  .liboard{
-    /* border: 1px solid red; */
-    /* width: 55px; */
-    /* height: 30px; */
-    display: flex;
-    align-items: center;
+    width: 75px;
+    padding: 7px 0px;
     text-align: center;
-    padding: 10px;
+    
     background-color: white;
  }
  .pone{
-    /* border: 1px solid red; */
     width: 35%;
     justify-self: center;
  }
- .div4{
-    /* justify-content: center; */
-    /* width: 100%; */
-    /* font-size: 10px; */
-    /* height: 400px; */
-
- }
+ 
  .star{
     display: flex;
     justify-content: center;
  }
  .img4{
     width: 60%;
-    /* padding:50px; */
  }
  .section4{
     text-align: center;
-    /* margin: 70px ; */
-    /* margin-bottom: 80px; */
-    /* padding: 90px;    */
-    /* border: 1px solid red; */
  }
- .container4{
-   /* line-height: 10px; */
-   /* border: 3px solid green; */
-   /* margin-bottom: 10px ; */
-   /* height: 100%; */
- }
+ 
  .ulone, .list2{
     display: flex;
     list-style-type: none;
@@ -241,7 +219,6 @@
     justify-self: center;
  }
  .section5{
-    /* border: 2px solid red; */
     font-size: 25px;
     align-items: center;
     background-image: url(hero-bg.jpg);
@@ -255,7 +232,6 @@
     width: 600px;
  }
  .pfood{
-    /* border: 1px solid red; */
     width: 88%;
     line-height: 28px;
  }
@@ -263,29 +239,25 @@
     font-size: 18px;
  }
  .section6{
-    /* border: 2px solid red; */
-    /* width: 70%; */
     display: flex;
+    gap: 60px;
  }
  .img6{
-    width: 100%;
     height: 400px;
  }
  .divsix{
-    /* border: 1px solid red; */
-    width: 47%;
-    margin: 80px;
+    width: 28%;
+    margin: 55px;
+    line-height: 30px;
+ }
+ .deliveryp{
+ width: 150%;
+ margin: 20px 5px;
  }
  .divseven{
-    display: flex;
-    /* align-items: center; */
-    /* width: 90%; */
-    /* height: 300px; */
-   
-    
+    display: flex; 
  }
  .dseven{
-    /* border: 1px solid red;    */
     margin: 5px;
     background-color: white;
          
@@ -298,24 +270,14 @@
  }
  .avatar{
    display: flex;
-   /* border: 1px solid red; */
-   align-items: center;
-   /* margin: 30px auto; */
-   
-   /* width: 80%; */
-   /* align-items: center; */
-   /* justify-content: center; */
-   
+   align-items: center; 
  }
  .pavatar{
-   /* border: 1px solid red; */
    width: 90%;
    margin: 10px auto;
  }
  .section7{
     justify-items: center;
-    /* border: 1px solid red; */
-    /* height: 500px; */
     padding: 60px;
     
  }
@@ -323,18 +285,15 @@
     background-image: url(banner-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    /* width: 50%; */
     margin: 3px 20px;
-    /* height: 380px; */
+    
  }
  .div82{
     background-image: url(banner-2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    /* width: 50%; */
-    /* margin: 50px; */
     padding: 40px 30px;
-    /* height: 190px; */
+    
     
  }
  
@@ -342,31 +301,19 @@
     background-image: url(banner-3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    /* width: 50%; */
-    /* margin: 50px; */
-    padding: 40px;
-    /* height: 190px; */
-    
-    
+    padding: 40px; 
  }
  .div84{
     background-image: url(banner-4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    /* margin: 50px; */
     padding: 50px;
-    /* border: 1px solid red; */
-    /* height: 173px; */
  }
  .section8{
     display: flex;
     width: 70%;
-    margin:40px auto;
-    /* margin-top: 100px; */
-    /* border: 1px solid red; */
-    /* height: 400px; */
-    
+    margin:40px auto;  
  }
  .tfood{
    width: 50%;
@@ -374,8 +321,6 @@
   .div822{
     display: flex;
     margin: 18px auto;
-    /* height: 195px; */
-    /* width: 100%; */
     gap: 10px;
     
   }
@@ -383,7 +328,6 @@
     color: white;
   }
   .section9{
-   /* margin-top: 200px; */
     text-align: center;
     padding: 30px;
     font-size: 10px;
@@ -391,26 +335,22 @@
   }
   .blog{
     display: flex;
-    /* border: 1px solid red; */
     width: 90%;
     justify-self: center;
-    
-    /* gap: 20px; */
-    
   }
   .imgblog{
     width: 100%;
   }
   .blog1{
-    /* border: 1px solid red; */
     background-color: white;
     margin:10px;
-    /* width: 30% ; */
+  }
+  .div9{
+   padding: 30px;
   }
   .all{
    background-color: yellow;}
    .mark{
-   /* border: 1px solid red; */
       background-color: yellow;
       color: white;
       border-radius: 50%;
@@ -423,13 +363,11 @@
    text-decoration: line-through;
 }
 .discount{
-   /* border: 1px solid red; */
    width: 35%;
    color: white;
    background-color: red;
-   margin: 20px ;
-   /* position: absolute; */
-   
+   margin: 10px 10px ;
+   padding: 10px;  
 }
 .white{
    color: white;
@@ -437,16 +375,16 @@
 .mob{
    display: none;
 } 
-  @media screen and (max-width:440px) {
+  @media screen and (max-width:500px) {
    .desktop{
       display: none;
    }
+   
    .container{
       width: 99%;
-      /* border: 2px solid red; */
+      overflow: hidden;
    }
    .hero1{
-      /* border: 1px solid red; */
       margin: auto;
    }
    .lone{
@@ -454,50 +392,27 @@
 }
 .show{
    width: 30%;
-   /* height: 15px;   */
    text-align: center;
    padding: 10px 0px;
-   margin: 50px 50px;
+   margin: 120px 15px;
 }
 .liboard{
-   width: 90%;
-}
-.reserve{
-   /* border: 2px solid yellow; */
-}
-.section3{
-   /* border: 2px solid green; */
-   /* width: 56%; */
-}
-.cali{
-   /* font-size: smaller; */
-}
-.preserve{
-   /* border: 1px solid red; */
-   /* width: 60%; */
-}
-.banner{
-   /* border: 2px solid red; */
-   /* width: 10%; */
+   font-size: 14px;
+   text-align: center;
 }
 
 .lone a{
    color: #000;
 }
 .mob{
-   /* width: 10%; */
-   /* width: 20%; */
-   /* border: 2px solid red; */
+   padding: 0px 20px;
 }
 .ham{
    position: relative;
-   /* border: 2px solid green; */
    font-size: smaller;
    margin: 0px 50px;
 }
 .ham:hover .lone{
-   /* display: block; */
-   /* border: 2px solid red; */
    display: flex;
    flex-direction: column;
    background-color: #fff;
@@ -507,37 +422,47 @@
    position: absolute;
    top: 10px;
 }
+.cali{
+   font-size: 20px;
+}
+.pcali{
+   font-size: 15px;
+}
+.calip{
+   font-size: 15px;
+}
+.pone{
+   width: 100%;
+   font-size: 15px;
+}
 .mob{
    display: flex;
    flex-direction: row;
    justify-content: space-between;
-   width: 98%;
-   /* gap: 20px; */
+   width: 100%;
    position: fixed;
     background-color: rgba(165, 42, 42, 0.315);
 }
 
      .section1, .section2, .section3, .div4, .list2, .section6, .section5, .section9 {
         flex-direction: column;
-        /* flex-wrap: wrap; */
-    }
-    .container{
-      /* border: 2px solid red; */
-      /* overflow: hidden; */
     }
     .divseven, .div822, .blog{
       flex-direction: column;
     }
-    .dseven{
-      /* border: 2px solid red; */
-      /* height: 150px; */
-    }
     .divfour, .dseven, .blog1{
       width: 100%;
     }
+    .discount{
+      width: 50%;
+    }
+    .hfood{
+      font-size: 20px;
+      color: white;
+    }
     
    
-    .ulone{
+    .ulone, .star{
       flex-direction: column;
     }
     .reserve.desktop{
@@ -550,8 +475,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 90%;
-    /* height: 400px; */
-    /* margin: 18px; */
  }
  .div82{
     background-image: url(banner-2.jpg);
@@ -564,27 +487,20 @@
  .div83{
     background-image: url(banner-3.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    /* width: 100%; */
-     
+    background-size: cover;    
  }
  .div84{
     background-image: url(banner-4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    /* border: 1px solid red; */
-    /* height: 250px; */
  }
  .section8{
     display: flex;
     flex-direction: column;
-    /* flex-wrap: wrap; */
     width: 80%;
     margin-bottom: 70px;
-    margin-top: 60px;
-    /* border: 1px solid red; */
-    
+    margin-top: 60px;  
  }
  .tfood{
    width: 100%;
@@ -592,8 +508,6 @@
   .div822{
     display: flex;
     margin: 18px auto;
-    /* height: 195px; */
-    /* width: 100%; */
     gap: 10px;
     
   }
@@ -613,9 +527,20 @@
       display: none;
     }
     .pfood{
-      /* border: 1px solid red; */
-      width: 100%;
+      font-size: 15px;
+      width: 270px;
       text-align: center;
+      color: white;
+    }
+    .hfoods{
+     
+      font-size: 20px;
+      width: 200px; 
+    }
+    .deliveryp{
+ 
+ font-size: 15px;
+ width: 250px;
     }
     .preserve{
       justify-self: center;
@@ -623,49 +548,89 @@
     .banner{
       width: 100%;
     }
-    .section7{
-      /* height: 1000px; */
+    .hcust{
+      font-size: 15px;
+    }
+    .pcust{
+      font-size: 15px;
     }
     .section9{
     text-align: center;
     margin-top:auto;
-    /* padding: 10px; */
-    /* font-size: 10px; */
-   /* border: 1px solid red; */
    }
    .section8{
-    /* display: flex; */
     width: 100%;
     margin:40px auto;
-    /* border: 1px solid red; */
-    /* height: 100px; */ 
-}
-.div81{
-   /* margin-top: 540px; */
 }
   }
-  @media screen and (min-width:426px) and (max-width:800px) {
+  @media screen and (min-width:501px) and (max-width:900px) {
    .container{
-      /* border: 2px solid red; */
       width: 100%;
    }
+   *{
+      width: 100%;
+   }
+   .ulone{
+      padding: 0;
+   }
+   .show{
+   width: 15%;
+   text-align: center;
+   padding: 10px 0px;
+   margin: 120px 15px;
+}
    .desktop{
-      border: 1px solid;
-      width: 85%;
+      
+      width: 100%;
       padding: 5px 10px;
       justify-content: space-evenly;
-      
-      /* width: 50%; */
    }
-   .reservenav{
-      margin: 10px 10px;
-      width: 40%;
-      /* border: 2px solid green;    */
+   .super{
+      font-size: 25px;
+      margin: 30px 0;
+   }
+   .pfoods{
+      margin: 10px 0;
+   }
+   .section1{
+          border: 2px solid rgb(78, 77, 77);
+
+      align-items: center;
+   }
+   .phero{
+      padding: 20px;
+   }
+   .imghero{
+      width: 60%;   
+   }
+   .section2, .star{
+      flex-direction: column;
+   }
+   .div2{
+      width: 60%;
+   }
+   .pone{
+      font-size: 15px;
+   }
+   .discount{
+      width: 50%;
    }
    .banner, .imgfood{
       width: 80%;
    }
    .section8{
       margin: 10px;
+   }
+  }
+  @media screen and (min-width:901px) and (max-width:1024px) {
+   .super{
+      font-size: 40px;
+      margin: 20px;
+   }
+   .pfoods{
+margin: 10px;
+   }
+   .foods{
+      font-size: 15px;
    }
   }
