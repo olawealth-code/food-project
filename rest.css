@@ -240,6 +240,7 @@
  }
  .section6{
     display: flex;
+    align-items: center;
     gap: 60px;
  }
  .img6{
@@ -601,13 +602,17 @@
       padding: 20px;
    }
    .imghero{
-      width: 60%;   
+      width: 70%;   
+   }
+   .section1{
+      display: flex;
+      align-items: center;
    }
    .section2, .star{
       flex-direction: column;
    }
    .div2{
-      width: 60%;
+      width: 50%;
    }
    .pone{
       font-size: 15px;
