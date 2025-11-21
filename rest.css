@@ -240,7 +240,7 @@
  }
  .section6{
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     gap: 60px;
  }
  .img6{
